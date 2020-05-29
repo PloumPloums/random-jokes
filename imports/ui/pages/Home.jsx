@@ -13,6 +13,9 @@ const Home = () => {
             <Button variant="primary" as={Link} to="/signup" block>
                 Je n'ai pas encore de compte
             </Button>
+            <Button variant="primary" as={Link} to="/addjoke" block>
+                Ajouter une blague
+            </Button>
         </Container>
     );
 };
